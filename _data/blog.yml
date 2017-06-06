@@ -4,7 +4,7 @@
 
 # edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
 - name: JavaScript
-  href: /js/
+  href: /javascript/
 
 - name: Angular
   href: /angular/
@@ -12,8 +12,8 @@
 - name: HTML
   href: /html/
 
-- name: Development Practices
-  href: /dev/
+- name: Development
+  href: /development/
 
 - name: Life
   href: /life/
