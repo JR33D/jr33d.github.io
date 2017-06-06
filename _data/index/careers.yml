@@ -1,0 +1,21 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: Connections Education
+  desc:
+    detail: Worked along side team members to implement requirements, and set new standards for Automated UI testing.
+  date:
+    detail: Jan. 2014
+  job:
+    detail: Software Engineer II
+  icon: fa-plus-square
+
+- name:
+    detail: Catalyst IT Services
+  desc:
+    detail: Cosulting for various projects from system migrations to newer code base, to ground up development for new projects.
+  date:
+    detail: Aug. 2011
+  job:
+    detail: Developer II
+  icon: fa-plus-square
