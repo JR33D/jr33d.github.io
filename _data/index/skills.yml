@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: FrontEnd, BackEnd, Tools, SDLC, Gaming
-percentage: 80, 50, 40, 50, 50
+aspects: FrontEnd, BackEnd, Tools, SDLC, Gaming, Agile/Scrum
+percentage: 90, 40, 50, 40, 90, 85
