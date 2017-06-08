@@ -7,10 +7,10 @@
     </div>
     {% for skill in site.data.index.skills %}
         <div class="row features-block">
-            <div class="wow zoomIn col-lg-6 col-lg-offset-3">
+            <div class="wow zoomIn col-md-2 col-md-offset-1">
                 <canvas id="{{ skill.id }}" height="500" width="500"></canvas>
             </div>
-            <div class="col-lg-1"></div>
+            <div class="col-md-2"></div>
             <script>
             var ctx = document.getElementById("{{ skill.id }}");
             var data = {
