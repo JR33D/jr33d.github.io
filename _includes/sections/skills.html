@@ -17,9 +17,9 @@
             {% else %}
             <div class="col-md-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
             {% endif %}
+                <h3>{{skill.label}}</h3>
                 <canvas id="{{ skill.id }}" height="500" width="500"></canvas>
             </div>
-            <div class="col-md-6"></div>
             <script>
             var ctx = document.getElementById("{{ skill.id }}");
             var data = {
