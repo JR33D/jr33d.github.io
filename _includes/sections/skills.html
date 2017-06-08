@@ -17,7 +17,7 @@
             {% else %}
             <div class="col-md-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
             {% endif %}
-                <h3>{{skill.label}}</h3>
+                <h2 class="text-center"><u>{{ skill.label }}</u></h2>
                 <canvas id="{{ skill.id }}" height="500" width="500"></canvas>
             </div>
             <script>
