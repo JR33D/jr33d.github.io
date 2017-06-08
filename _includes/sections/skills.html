@@ -5,12 +5,12 @@
             <h1>My Skills</h1>
         </div>
     </div>
-    {% for skill in site.data.index.skills %}
-        <div class="row features-block">
-            <div class="wow zoomIn col-md-2 col-md-offset-1">
+        <div class="row features-block">  
+        {% for skill in site.data.index.skills %}
+            <div class="wow zoomIn col-md-4 col-md-offset-1">
                 <canvas id="{{ skill.id }}" height="500" width="500"></canvas>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-4"></div>
             <script>
             var ctx = document.getElementById("{{ skill.id }}");
             var data = {
@@ -40,6 +40,6 @@
                 }
             });
             </script>
-        </div>
       {% endfor %}
+    </div>
 </div>
