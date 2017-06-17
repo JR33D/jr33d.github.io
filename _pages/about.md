@@ -1,9 +1,9 @@
 ---
 layout:    about
 permalink: "/about"
-author:    JReed
+author:    jreed
 keywords:  about person github
-title:     About JReed
+title:     About Jeremy Reed
 menutitle: About
 weight:    90
 excerpt:   This page contains the curriculum vitae (CV) of the author.
