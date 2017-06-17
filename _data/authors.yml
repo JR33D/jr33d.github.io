@@ -1,0 +1,35 @@
+default:                                                      # Fallback if nothing is specified
+  initial:      JReed                                         # used for author lookup in posts and for first two characters in the about page back button
+  name:         "Jeremy Reed"                                 # used to display author name
+  cover:        /assets/mountain-alternative-cover.jpg        # OPTIONAL: defines location of cover image in about page
+  picture:      /assets/avatar.jpg                            # OPTIONAL: author picture
+  bio:          Father, Sotware Engineer, Gamer               # OPTIONAL: text below author name in posts
+  location:     Pennsylvania, United States                   # OPTIONAL: used to display location of the author
+  website:                          						              # OPTIONAL: link to the author of a post
+  email:        JReed129@gmail.com                            # OPTIONAL: used in the about page
+  twitter:                                                    # OPTIONAL: used in the about page
+  linkedin:      JR33D                                        # OPTIONAL: used in the about page
+  xing:                                                       # OPTIONAL: used in the about page
+  github:        JR33D                                        # OPTIONAL: used in the about page
+  stackoverflow:                                              # OPTIONAL: used in the about page
+  facebook:                                                   # OPTIONAL: used in the about page
+  gplus:                                                      # OPTIONAL: used in the about page
+  soundcloud:                                                 # OPTIONAL: used in the about page
+  youtube:                                                    # OPTIONAL: used in the about page
+  pinterest:                                                  # OPTIONAL: used in the about page
+  dribble:                                                    # OPTIONAL: used in the about page
+  behance:                                                    # OPTIONAL: used in the about page
+  spotify:                                                    # OPTIONAL: used in the about page
+  twitch:                                                     # OPTIONAL: used in the about page
+  s500px:                                                     # OPTIONAL: used in the about page
+  reddit:                                                     # OPTIONAL: used in the about page
+JReed:
+  initial:      JReed
+  name:         "Jeremy Reed"       
+  cover:        /assets/mountain-cover.jpg  
+  picture:      /assets/avatar.jpg  
+  bio:          Father, Sotware Engineer, Gamer
+  location:     Pennsylvania, United States
+  email:        "JReed129@gmail.com"   
+  linkedin:     JR33D
+  github:       JR33D

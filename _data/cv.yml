@@ -1,0 +1,38 @@
+jdecent:
+    profile: "Integer sit amet libero non sapien sagittis dapibus. Phasellus gravida quam ac nisl finibus dictum. Pellentesque vel orci et nisi pretium tincidunt nec a diam. Vivamus et leo eu lorem congue pellentesque id sed tortor. Nulla et nibh neque. Sed ut fermentum lectus, id rhoncus erat."
+    skills:
+        - "C#, ASP.NET MVC"
+        - "XAML, WPF, LINQ, Silverlight"
+        - "JavaScript, jQuery, HTML5, CSS, LESS"
+        - "Web Services, Active Directory, Windows 10, Windows Phone Apps"
+    education:
+        - time:             "2010 - 2011"
+          location:         "Salem International University"
+          description:      "Completed course work towards Information Technology degree with focus in Computer Science"
+        - time:             "2009 - 2010"
+          location:         "Kutztown University"
+          description:      "Completed course work towards Computer Science degree"
+    employment:
+        - time:             "01.2014 - Current"
+          location:         "Columbia, MD (Remote)"
+          company:          "Connections Education"
+          position:         "Software Engineer II"
+          responsibilities:
+            - "Define and implement standards for automated testing and CI/CD setups."
+            - "Create NPM packages that allow for faster devlopment and automated testing of features being created."
+            - "Work in fast passed agile development to provide users with best experience possible."
+        - time:             "08.2011 - 01.2014"
+          location:         "Baltimore, MD"
+          company:          "Catalyst IT Services"
+          position:         "Developer II"
+          responsibilities:
+            - "Assisted with training and onboarding of new employees."
+            - "Sat onsite with clients to determine requirements, and implement working software to meet needs."
+            - "Design architecture for multi-team project and lead platforms team on project."
+    projects:
+        - time:             ""
+          team:             ""
+          title:            ""
+          technologies:     ""
+          responsibilities:
+            - ""

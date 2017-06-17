@@ -1,9 +1,0 @@
-# projects section data
-# If you don't have language feature(language.yml is empty), ignore "i18n" items
-# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Screeps AI
-  gh_user: JR33D
-  repo: screeps-ai
-  img: /static/assets/img/landing/screeps.png
-  desc: This project is my project for the programming MMO, http://screeps.com
-  

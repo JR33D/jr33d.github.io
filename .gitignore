@@ -1,9 +1,4 @@
 _site
 .sass-cache
 .jekyll-metadata
-.idea
-.DS_Store
-node_modules
-npm-debug.log
-# exclude post template specific to quickly adding new post
-_posts/post_template.md
+/.vs

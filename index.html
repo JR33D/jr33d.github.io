@@ -1,95 +1,62 @@
 ---
-layout: blog
-title: index
-permalink: /
+layout: default
 ---
+<div id="content" class="content">
+    <h3>Recent Posts</h3>
+    <ul class="category recent-posts">       
+        {% for post in site.posts limit:5  %}
+        {% unless post.draft %}
 
-<div class="navbar-wrapper">
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#page-top" id="i18_title">{{ site.title }}</a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right" id="i18_navbar">
-          {% for section in site.data.landing %}
-          <li>
-            <a class="page-scroll" href="#{{ section.id }}">
-              {{ section.name }}
-            </a>
-          </li>
-          {% endfor %}
-          {% for language in site.data.index.language %}
-          <li>
-            <a id="set_lang_{{ language.locale }}" class="btn btn-sm set_{{ language.locale }}" data-locale="{{ language.locale }}">
-              <img src="{{ language.flag | prepend: site.baseurl }}" height="16" width="16">
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </nav>
+        {% if post.menutitle %}
+        {% assign title = post.menutitle %}
+        {% else %}
+        {% assign title = post.title %}
+        {% endif %}
+
+        <li>
+            <div class="article">
+                <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
+                    <header class="post-header">
+                        <span class="title"><a itemprop="name" href="{{ post.url | absolute_url }}" title="{{ title }}">{{ title }}</a></span>
+                        <time class="date" itemprop="datePublished" datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%B %e, %Y"}}</time>
+                    </header>
+                </article>
+            </div>
+        </li>
+        {% endunless %}
+        {% endfor %}
+    </ul>
+
+
+    {% assign sorted_cats = site.categories | sort %}
+    {% for category in sorted_cats %}
+    {% assign sorted_posts = category[1] | reversed %}
+    <h3 id="{{category[0] | uri_escape | downcase | slugify }}">{{category[0] | camelcase }}</h3>
+    <ul class="category {{category[0] | uri_escape | downcase | slugify}}">  
+        {% for post in sorted_posts %}
+        {% unless post.draft %}
+
+        {% if post.menutitle %}
+        {% assign title = post.menutitle %}
+        {% else %}
+        {% assign title = post.title %}
+        {% endif %}
+
+        <li>
+            <div class="article">
+                <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
+                    <header class="post-header">
+                        <span class="title"><a itemprop="name" href="{{ post.url | absolute_url }}" title="{{ title }}">{{ title }}</a></span>
+                        <time class="date" itemprop="datePublished" datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%B %e, %Y"}}</time>
+                    </header>
+                </article>
+            </div>
+        </li>
+        {% endunless %}
+        {% endfor %}
+    </ul>
+    {% endfor %}
+
+
+
 </div>
-<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-    <li data-target="#inSlider" data-slide-to="1"></li>
-  </ol>
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <div class="container">
-        <div class="carousel-caption">
-        </div>
-        <div class="carousel-image wow zoomIn">
-          <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
-        </div>
-      </div>
-      <!-- Set background for slide in css -->
-      <div class="header-back one"></div>
-    </div>
-    <div class="item">
-      <div class="container">
-        <div class="carousel-caption blank">
-        </div>
-      </div>
-      <!-- Set background for slide in css -->
-      <div class="header-back two"></div>
-    </div>
-  </div>
-  <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-{% for section in site.data.landing %}
-{% assign loopindex = forloop.index | modulo: 2 %}
-<section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0;">
-  {% include sections/{{section.tpl}} %}
-</section>
-{% endfor %}
-<style>
-iframe {
-  -moz-transform: scale(0.25, 0.25);
-  -webkit-transform: scale(0.25, 0.25);
-  -o-transform: scale(0.25, 0.25);
-  -ms-transform: scale(0.25, 0.25);
-  transform: scale(0.25, 0.25);
-  -moz-transform-origin: top left;
-  -webkit-transform-origin: top left;
-  -o-transform-origin: top left;
-  -ms-transform-origin: top left;
-  transform-origin: top left;
-}
-</style>
-<iframe src="https://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe>

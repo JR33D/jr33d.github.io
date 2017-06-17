@@ -1,61 +1,27 @@
 # Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Website settings
-title: JR33D
-description: Jeremy's resume and blog.
-keywords: Jeremy,JR33D,blog,github,Resume
-baseurl:  # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: http://jr33d.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
-# url: http://127.0.0.1:4000
-img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+# Site settings
+title:            JReed's Website
+subtitle:         Personal profile and blog
+description:      This is the personal profile and blog for Jeremy Reed.
+keywords:         Jeremy Reed Developer Engineer Software Websites Blog Resume Portfolio
+language:         "en" # default language of the blog. Language codes: http://www.w3schools.com/tags/ref_language_codes.asp
 
-# author -- index page "about me" section
-author:  # change following line to your infomation.
-  name: Jeremy Reed  # Be used at blog posts' author.
-  first_name: Jeremy  # Be used at index page about me section.
-  last_name: Reed  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
-  github_username: JR33D  # Leave blank if you don't have now
-  linkedin_id: JR33D # Leave blank if you don't have now
-  email: JReed129@gmail.com  # Leave blank if you don't have now
-  cv:  # A online CV can be printed as PDF, leave blank if you don't have now
-  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
-  skill_icon1:
-    - name: icon-apache
-    - name: fa-linux
-  skill_icon2:
-    - name: fa-linux
-    - name: icon-apache
-  desc: Introduce myself will be here.  # Describe yourself.
-
-# comment
-#disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
- # name: JR33D
- # public_key: 
-
-# analytics
-## google analytics
-ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-  # id:
-
-## google optimize
-go:
-  # id:
-
-## growingIO
-gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
-  # id:
-
-## donation
-donation: off  # type 'on'/'off' to choice display donation button at post page or not
-
+baseurl:          "" # the subpath of your site, e.g. /blog
+url:              "" # the base hostname & protocol for your site. Have a look at robots.txt as well!
+permalink:        /blog/:categories/:title
+cover:            /assets/mountain-cover.jpg
+disqus_shortname: ""
 
 # Build settings
-encoding: utf-8
-
-# other settings
-highlighter: rouge
 markdown: kramdown
 kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    disable: true
+include: ['_pages']
+exclude: [vendor]
