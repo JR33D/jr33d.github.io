@@ -26,7 +26,7 @@ default:                                                      # Fallback if noth
 JReed:
   initial:      JReed
   name:         "Jeremy Reed"       
-  cover:        /assets/mountain-cover.jpg  
+  cover:        /assets/mountain-alternative-cover.jpg  
   picture:      /assets/avatar.jpg  
   bio:          Father, Sotware Engineer, Gamer
   location:     Pennsylvania, United States
