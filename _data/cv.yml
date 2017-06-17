@@ -1,10 +1,10 @@
 jreed:
     profile: ""
     skills:
-        - "C#, ASP.NET MVC"
-        - "XAML, WPF, LINQ, Silverlight"
-        - "JavaScript, jQuery, HTML5, CSS, LESS"
-        - "Web Services, Active Directory, Windows 10, Windows Phone Apps"
+        - "C#, ASP.NET, MVC, WebAPI, SQL Server"
+        - "JavaScript, Typescript, HTML5, CSS, LESS, Angular"
+        - "Jasmine, Karma, MS TEST, Moq, Frisby, Protractor"
+        - "Web Services, Agile Methodologies, Scrum/SAFe, SDLC Practices"
     education:
         - time:             "2010 - 2011"
           location:         "Salem International University"
