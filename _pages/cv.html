@@ -14,21 +14,6 @@ excerpt:   This page contains the curriculum vitae (CV) of the author.
     <p>{{cv.profile}}</p>
 </div>
 
-<div class="md-card shadow websites">
-    <div class="title">
-        Websites
-    </div>
-    <div class="content">
-        {% for site in cv.websites %}   
-        <dl>
-            <dt>{{site.name}}</dt>
-            <dd>
-                <h4>{{site.url}}</h3>
-            </dd>
-        </dl>
-        {% endfor %}
-    </div>
-</div>
 
 <div class="md-card shadow">
     <div class="title icon-stats-bars">
@@ -105,4 +90,20 @@ excerpt:   This page contains the curriculum vitae (CV) of the author.
         </dd>
     </dl>
     {% endfor %}
+</div>
+
+<div class="md-card shadow websites">
+    <div class="title icon-sphere">
+        Additional Websites
+    </div>
+    <div class="content">
+        {% for site in cv.websites %}   
+        <dl>
+            <dt>{{site.name}}</dt>
+            <dd>
+                <h3>{{site.url}}</h3>
+            </dd>
+        </dl>
+        {% endfor %}
+    </div>
 </div>

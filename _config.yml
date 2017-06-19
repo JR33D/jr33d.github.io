@@ -23,9 +23,9 @@ defaults:
   -
     scope:
       path: "_posts"
-      type: "posts" # previously `page` in Jekyll 2.2.
+      type: "posts" 
     values:
-      layout: "post" # overrides previous default layout
+      layout: "post"
       author: jreed
 
 # Build settings
