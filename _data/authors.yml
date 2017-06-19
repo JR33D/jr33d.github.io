@@ -5,24 +5,14 @@ default:                                                      # Fallback if noth
   picture:      /assets/avatar.jpg                            # OPTIONAL: author picture
   bio:          Father, Sotware Engineer, Gamer               # OPTIONAL: text below author name in posts
   location:     Pennsylvania, United States                   # OPTIONAL: used to display location of the author
-  website:                          						              # OPTIONAL: link to the author of a post
+  website:      jr33d.github.io      						              # OPTIONAL: link to the author of a post
   email:        JReed129@gmail.com                            # OPTIONAL: used in the about page
   twitter:                                                    # OPTIONAL: used in the about page
   linkedin:      JR33D                                        # OPTIONAL: used in the about page
-  xing:                                                       # OPTIONAL: used in the about page
   github:        JR33D                                        # OPTIONAL: used in the about page
   stackoverflow:                                              # OPTIONAL: used in the about page
-  facebook:                                                   # OPTIONAL: used in the about page
-  gplus:                                                      # OPTIONAL: used in the about page
-  soundcloud:                                                 # OPTIONAL: used in the about page
   youtube:                                                    # OPTIONAL: used in the about page
-  pinterest:                                                  # OPTIONAL: used in the about page
-  dribble:                                                    # OPTIONAL: used in the about page
-  behance:                                                    # OPTIONAL: used in the about page
-  spotify:                                                    # OPTIONAL: used in the about page
   twitch:                                                     # OPTIONAL: used in the about page
-  s500px:                                                     # OPTIONAL: used in the about page
-  reddit:                                                     # OPTIONAL: used in the about page
 jreed:
   initial:      JReed
   name:         "Jeremy Reed"       
@@ -33,3 +23,4 @@ jreed:
   email:        "JReed129@gmail.com"   
   linkedin:     JR33D
   github:       JR33D
+  githubResume: https://resume.github.io/?jr33d

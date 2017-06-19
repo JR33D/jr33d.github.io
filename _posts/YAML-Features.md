@@ -7,12 +7,12 @@ tags:              Jekyll YAML Features Explained
 category:          Features
 author:            jwillmer
 cover:             /assets/mountain-alternative-cover.jpg
-published:         true
+draft:         true
 redirect_from:     "/YAML-Features-Redirect/"
 cover:             /assets/mountain-alternative-cover.jpg
 language:          EN
 comments:          true
-math:			   false
+math:			         false
 ---
 
 In this short post I changed the title that is displayed on the front page from `YAML Custom Features` to `YAML Features`.

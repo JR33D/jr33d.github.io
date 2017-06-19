@@ -4,7 +4,7 @@ title:             "Welcome to Me"
 menutitle:         "Welcome to Me"
 date:              2017-06-17 02:00:00 -0400
 tags:              welcome jeremy reed blog
-category:          misc
+category:          Random
 author:            jreed
 published:         true
 redirect_from:     "/Welcome-to-me/"
