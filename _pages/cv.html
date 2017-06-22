@@ -59,7 +59,7 @@ excerpt:   This page contains the curriculum vitae (CV) of the author.
     </div>
     <div class="content">
         <h2>{{project.title}}</h2>
-        {% if project.github %}code base: <a href="{{project.github}}">{{project.github}}</span>{% endif %}
+        {% if project.github %}code base: <a href="{{project.github}}">{{project.github}}</a>{% endif %}
         <ul>
             {% for responsibility in project.responsibilities %}
             <li>{{responsibility}}</li>
