@@ -30,12 +30,15 @@ jreed:
             - "Sat onsite with clients to determine requirements, and implement working software to meet needs."
             - "Design architecture for multi-team project and lead platforms team on project."
     projects:
-        - time:             ""
-          team:             ""
-          title:            ""
-          technologies:     ""
+        - time:             "June 2017 - Current"
+          team:             "Solo Side Project"
+          title:            "Screeps MMO"
+          technologies:     "JavaScript, Gulp, NPM, node.js, Artificial intelligence, Machine Learning"
+          github:           "https://github.com/JR33D/screeps-ai"
           responsibilities:
-            - ""
+            - "Dynamically collect resources, and distrbute them to buildings"
+            - "Read and understand third party API in order toe complete actions"
+            - "Compentition Website: https://screeps.com/"
     websites:
         - name: "Github Resume"
           url: "https://resume.github.io/?JR33D"
