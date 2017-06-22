@@ -38,7 +38,7 @@ jreed:
           responsibilities:
             - "Dynamically collect resources, and distrbute them to buildings"
             - "Read and understand third party API in order toe complete actions"
-            - "Compentition Website: https://screeps.com/"
+            - "Website: <a href='https://screeps.com/'>https://screeps.com/</a>"
     websites:
         - name: "Github Resume"
           url: "https://resume.github.io/?JR33D"
