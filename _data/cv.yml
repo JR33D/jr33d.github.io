@@ -41,4 +41,4 @@ jreed:
             - "Website: <a href='https://screeps.com/'>https://screeps.com/</a>"
     websites:
         - name: "Github Resume"
-          url: "https://resume.github.io/?JR33D"
+          url: "<a href='https://resume.github.io/?JR33D'>https://resume.github.io/?JR33D</a>"
