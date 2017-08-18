@@ -8,10 +8,6 @@ layout: default
             <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
             <section class="post-meta">
                 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-                on
-                {% for tag in page.tags limit:5 %}
-                <span>{{ tag }}</span>
-                {% endfor %}
             </section>
         </header>
 
