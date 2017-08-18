@@ -6,7 +6,7 @@ date:              2017-06-17 02:00:00 -0400
 tags:              welcome jeremy reed blog
 category:          Random
 author:            jreed
-published:         true
+draft:             false
 redirect_from:     "/Welcome-to-me/"
 language:          EN
 ---

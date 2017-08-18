@@ -2,11 +2,11 @@
 layout:            post
 title:             "Project: Highpoint Woodworks Mockups"
 menutitle:         "Highpoint Woodworks - Mockups"
-date:              2017-06-18 02:00:00 -0400
+date:              2017-08-18 02:00:00 -0400
 tags:              projects Highpoint Woodworks mockups blog
 category:          Projects
 author:            jreed
-published:         true
+draft:             false
 redirect_from:     "/project-highpoint-woodworks-mockups/"
 language:          EN
 ---

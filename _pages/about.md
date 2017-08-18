@@ -6,7 +6,6 @@ keywords:  about person github
 title:     About Jeremy Reed
 menutitle: About
 weight:    90
-excerpt:   This page contains the curriculum vitae (CV) of the author.
 --- 
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
