@@ -11,7 +11,6 @@ subtitle:         Personal profile and blog
 description:      This is the personal profile and blog for Jeremy Reed.
 keywords:         Jeremy Reed Developer Engineer Software Websites Blog Resume Portfolio
 language:         "en" # default language of the blog. Language codes: http://www.w3schools.com/tags/ref_language_codes.asp
-
 baseurl:          "" # the subpath of your site, e.g. /blog
 url:              "" # the base hostname & protocol for your site. Have a look at robots.txt as well!
 permalink:        /blog/:categories/:title
