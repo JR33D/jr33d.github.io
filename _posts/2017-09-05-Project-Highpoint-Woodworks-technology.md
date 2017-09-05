@@ -5,7 +5,7 @@ menutitle:         "Highpoint Woodworks - Technology"
 date:              2017-09-05 02:00:00 -0400
 tags:              projects Highpoint Woodworks technology blog angular
 category:          Projects
-author:            JReed
+author:            jreed
 draft:             false
 redirect_from:     "/project-highpoint-woodworks-technology/"
 language:          EN

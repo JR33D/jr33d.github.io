@@ -1,5 +1,5 @@
 default:                                                      # Fallback if nothing is specified
-  initial:      JReed                                         # used for author lookup in posts and for first two characters in the about page back button
+  initial:      jreed                                         # used for author lookup in posts and for first two characters in the about page back button
   name:         "Jeremy Reed"                                 # used to display author name
   cover:        /assets/mountain-alternative-cover.jpg        # OPTIONAL: defines location of cover image in about page
   picture:      /assets/avatar.jpg                            # OPTIONAL: author picture
@@ -14,7 +14,7 @@ default:                                                      # Fallback if noth
   youtube:                                                    # OPTIONAL: used in the about page
   twitch:                                                     # OPTIONAL: used in the about page
 jreed:
-  initial:      JReed
+  initial:      jreed
   name:         "Jeremy Reed"       
   cover:        /assets/mountain-alternative-cover.jpg  
   picture:      /assets/avatar.jpg  
