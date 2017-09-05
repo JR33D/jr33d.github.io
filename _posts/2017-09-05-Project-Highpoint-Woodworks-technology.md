@@ -5,7 +5,7 @@ menutitle:         "Highpoint Woodworks - Technology"
 date:              2017-09-05 02:00:00 -0400
 tags:              projects Highpoint Woodworks technology blog angular
 category:          Projects
-author:            jreed
+author:            JReed
 draft:             false
 redirect_from:     "/project-highpoint-woodworks-technology/"
 language:          EN
@@ -35,11 +35,12 @@ As I mentioned I have decided to use Angular for the client side of the project.
 
 Using the [angular-starter](https://github.com/JR33D/angular-starter) repository I added components and routing for each of the various pages of the site. Our overall project structure looks something like this so far.
 
-![]({{ "/media/HighpointWoodworks/ProjectStructureOne.png#left" | absolute_url }})
-![]({{ "/media/HighpointWoodworks/ProjectStructureTwo.png#right" | absolute_url }})
+![]({{ "/media/HighpointWoodworks/project-structure-one.png#left" | absolute_url }})
+![]({{ "/media/HighpointWoodworks/project-structure-two.png#right" | absolute_url }})
+
 
 As for what the application looks like at this moment of in progress, a color palette is still being worked out, but we are considering earthly tones, green, brown, and blue. We have the header and footer in place as fixed height items, along with the content of the header there but not styled into place. The center content changes based on our route, currently we are in the /home route which displays the title "Home".
 
-![]({{ "/media/HighpointWoodworks/InProgressDevOne.png" | absolute_url }})
+![]({{ "/media/HighpointWoodworks/progress-update-one.png" | absolute_url }})
 
 With the holiday weekend just passing I did not get a chance to spend as much time progress this project as I would have liked. Check back next time which should include a general progress update, along with a better stabilized idea of color palette and general page structure for each area.
