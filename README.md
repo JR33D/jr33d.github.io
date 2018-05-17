@@ -1,1 +1,0 @@
-Work in progress for personal site and blog.
