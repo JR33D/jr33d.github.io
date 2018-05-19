@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+- node
+before_script:
+- npm install -g --silent @angular/cli
+script:
+- ng build --prod
+before_deploy:
+- git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
+deploy:
+  provider: pages
+  file: $TRAVIS_BUILD_DIR+"/**/*"
+  skip_cleanup: true
+  keep-history: true
+  repo: jr33d/jr33d.github.io
+  target-branch: master
+  on:
+    branch: master
+  github_token:
+    secure: kVvRYcJ5byKTntSvZA7MYnCiNSlv3+l2WLduyXKUPrPKAdDkbHWAMyFM2QQb0uHrLF2sks0jrF2gg1LpdcUZXTsY4Y1T4i0CWGejqNMdgz7tC8GnGSqrQl1QzwLVqp7wPL/3mNnEVUfP43adoAxQSGbW2utFqvbxD85JdSnikV58x5C286Tv1bEkRmrnrFr5ZlgRwSZvOmq+EzLX6wTm10ELHK8iC6SlrLHxw4ZYWI5eezwf0qqyZB1bwZHD+ZcEOq0D48n/tXSIFxiRyjOkXgrpzsd462oH+MLRpyEA6aVIkiMohjWmR3AsRu8ti232wUCbmCpJi6csKHsdFCuxtIskng+3XID//SSdYa2QLWzj8brNMcmqzOkvR8EkTFKCKapP59RP1IPyNuuSP2MVAWxJS3LuGNWbJ7w0TH7FeR0Gye9mLhsrpuqfUJBLkNLNoZPHBtD9O3so/C2zYz+YAprPQdGf0nIIBtFyHtMiHyBzyIobDy7xx5zzqJQnsyE2lWb6DYqpN+f7YFTugNT+cWNi5Bw6BPZXJhVYniTN9lzKLUmoylNEVigpnHUV5zqaRHPZn11D1eleIQVrUuady218CwB8d7EZlUrGO+dMzwovz1RzyjIyNrv0fFNTDI4Nq52+Ud1KXjFuhF8VUh7W0nq7GBbwQl1iG/bmIhlAY8w=
